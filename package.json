@@ -1,0 +1,17 @@
+{
+  "name": "video-compression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainThread.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mainThread.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "node-worker-threads-pool": "^1.5.1"
+  }
+}
